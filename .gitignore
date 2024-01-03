@@ -1,5 +1,5 @@
 __pycache__
 /.idea/
 /venv/
-/tasks/migrations/
+/*/migrations/
 /db.sqlite3
