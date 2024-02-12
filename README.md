@@ -5,6 +5,11 @@
 ---
 ### Installation
 
+Create a virtual environment
+```bash
+  python -m venv venv
+```
+
 Install dependencies
 ```bash
   pip install -r requirements.txt
@@ -30,8 +35,8 @@ Install dependencies
   python manage.py runserver
 ```
 
-5. Email Configuration in settings.py
+5. Email Configuration in .env file
 ```bash
-  EMAIL_HOST_USER = 'YOUR_EMAIL'
-  EMAIL_HOST_PASSWORD = 'YOUR_PASSWORD'
+  HOST_EMAIL = "YOUR_EMAIL"
+  HOST_PASSWORD = "YOUR_PASSWORD"
 ```
