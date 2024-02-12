@@ -8,6 +8,7 @@
     <title>Todo | Login</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" />
+    
     <style>
         .divider:after,
         .divider:before {
@@ -40,6 +41,7 @@
                 <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
                     <form action="{% url 'login' %}" method="post">
                         {% csrf_token %}
+                        
                         <!-- Username input -->
                         <div class="form-outline mb-4">
                             <label class="form-label" for="lg-username">Username</label>
